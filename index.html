@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>camma.me</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+<!--LANDING PAGE-->
+
+<main>
+    <section class="intro" id="intro">
+        <div class="video-container" id="video-container">
+            <video src="https://www.borotalco.tv/wp-content/uploads/2024/02/teaser-mahmood.mp4" autoplay loop muted></video>
+            <!-- <iframe 
+                id="iframe-intro"
+                src="https://www.youtube.com/embed/gC7hYdIzlpQ?&autoplay=1&loop=1&hd=1&jsapi=1"  
+                frameborder="0" 
+                marginheight="0"
+                marginwidth="0"
+                width="100%"
+                height="100%"
+                scrolling="auto">
+            </iframe> -->
+        </div>
+    </section>
+    <header class="header">
+        <div class="nav-container">
+            <span class="logo" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+                <a href="#intro">camma.me
+                    <div class="bar-container">
+                        <div class="section light-gray"></div>
+                        <div class="section gray"></div>
+                        <div class="section dark-gray"></div>
+                        <div class="section black"></div>
+                    </div>
+                </a>
+            </span>
+            <nav class="nav">
+                <ul class="nav--ul__one">
+                    <li class="nav-link"><a href="#intro">home</a></li>
+                    <li class="nav-link"><a href="#gallery">portfolio</a></li>
+                    <li class="nav-link"><a href="#services">services</a></li>
+                    <li class="nav-link"><a href="#contact">contacts</a></li>
+                </ul>
+            </nav>
+            <span class="hamburger-menu"><i id="hamburger-icons" class="fa-solid fa-bars" class="fa-solid fa-x"></i></span>
+        </div>
+    </header>
+</main>
+
+<!--PORTFOLIO-->
+
+<section class="gallery" id="gallery">
+    <div class="gallery-container">
+        <div class="portfolio-title">
+            <p>portfolio</p>
+            <hr size="5" width="100%" align="left" color="#DDDDDD">
+        </div>
+    </div>
+    <div class="container">
+        <div class="video-grid">
+            <!-- Video 1 -->
+            <div class="video-section">
+                <div class="video-title"><h2>IronMan Australia</h2></div>
+                <div class="video-wrapper">
+                    <img src="images/ironman-australia.jpg" alt="IronMan Australia">
+                    <div class="play-button"></div>
+                    <iframe 
+                        src="https://player.vimeo.com/video/1039365019?badge=0&amp;byline=0&amp;portrait=0&amp;quality=720p&amp;title=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+                        frameborder="0" 
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+                        title="ironman-australia">
+                    </iframe>
+                </div>
+            </div>
+            <!-- Video 2 -->
+            <div class="video-section">
+                <div class="video-title"><h2>LineOut Dance Company - Comfort Zone<</h2></div>
+                <div class="video-wrapper">
+                    <!--<div class="play-button"></div>-->
+                    <div class="video-iframe">
+                        <iframe 
+                        src="https://player.vimeo.com/video/1039365032?badge=0&amp;byline=0&amp;portrait=0&amp;quality=1080p&amp;title=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+                        frameborder="0" 
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+                        title="ironman-australia">
+                    </iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- Video 3 -->
+            <div class="video-section">
+                <div class="video-title"><h2>Tristan Baab - Five Guys (Barça VLOG) feat. Christian Slaughter - prod. Vinny</h2></div>
+                <div class="video-wrapper">
+                    <!--<div class="play-button"></div>-->
+                    <iframe 
+                        src="https://player.vimeo.com/video/394647543?badge=0&amp;byline=0&amp;portrait=0&amp;quality=1080p&amp;title=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+                        frameborder="0" 
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+                        title="ironman-australia">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr size="5" width="75%" align="center" color="#DDDDDD">
+</section>
+
+<!--SERVICES-->
+
+<section class="services" id="services">
+    <div class="portfolio-title">
+        <p>services</p>
+        <hr size="5" width="100%" align="left" color="#DDDDDD">
+    </div>
+    <div class="services-container">
+        <a href="">
+            <div class="services-container-video">
+                <div class="services-container-background">
+                    <span>video</span>
+                    <p>production & post-production</p>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="services-container-graphic">
+                <div class="services-container-background">
+                    <span>graphic</span>
+                <p>graphic design & branding</p>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="services-container-web">
+                <div class="services-container-background">
+                    <span>web</span>
+                <p>web design & development</p>
+                </div>
+            </div>
+        </a>
+    </div>
+    <hr size="5" width="75%" align="center" color="#DDDDDD">
+</section>
+
+<!--CONTACTS-->
+
+<section class="contact" id="contact">
+    <div class="portfolio-title">
+        <p>contacts</p>
+        <hr size="5" width="100%" align="left" color="#DDDDDD">
+    </div>
+    <div class="contact-section">
+        <p><a href="#intro">CAMMA.ME</a> merges creativity and production into its multimedia contents, swinging between music, ADV, fashion and narrative content. Based in Rome, <a href="#intro">CAMMA.ME</a> operates all around Italy and Europe in order to find the best creative solutions.
+        </p>
+        <div class="container-social-icons">
+            <div class="social-icons">
+                <a href="https://facebook.com/marco.camma.5/" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://wa.me/+393895518178?text=Your Message" target="_blank" aria-label="Whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://instagram.com/cammamarco" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="mailto:recipient@example.com?subject=Subject%20Text&body=Body%20Text" target="_blank" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--FOOTER-->
+
+<footer>
+    <hr size="5" width="75%" align="center" color="#DDDDDD">
+    <p>&copy; 2024 by camma.me</p>
+</footer>
+
+<script src="main.js"></script>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+</body>
+</html>
